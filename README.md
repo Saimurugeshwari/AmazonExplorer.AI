@@ -1,81 +1,111 @@
-# AmazonExplorer.AI
+🌎 AmazonExplorer.AI
+AI-Assisted Exploration Tool for Remote Archaeology and Environmental Research
 
-# 🌎 AmazonExplorer.ai — AI-Assisted Archaeology for the Amazon
+AmazonExplorer.AI empowers archaeologists, researchers, and explorers with AI-driven insights from satellite + LIDAR data. Draw a region on the map, state your research goal, and receive a multilingual, downloadable report — with risk ratings, historical context, vegetation analysis, and even a voice note for on-the-go listening.
 
-AmazonExplorer.ai is an intelligent mapping tool for archaeologists and researchers to explore, analyze, and discover potential historical sites across the Amazon rainforest. Using open-source LIDAR and satellite data combined with OpenAI's GPT-4, it allows for guided research, anomaly detection, and expedition planning.
+-Features Overview
+Feature	Description
+- Interactive Map (Leaflet)	Explore Amazonia with layered LIDAR and satellite overlays.
+-Region Selection + Prompt	Draw AOI (Area of Interest) and define a research question.
+-GPT-4 Insights	Terrain, anomalies, historical notes, and expedition feasibility.
+- Archaeological Tile Ranking	Tiles are scored by GPT based on potential interest.
+- Accessibility Scanner	Warns about no-road zones and risky terrain.
+-Route Estimator	Simulates safest access routes based on fires/roads.
+- Vegetation / Plant Suitability	Soil and crop potential estimated via NDVI and GPT.
+-Historical Context Prompts	GPT adds known regional facts or cultural data (e.g., Kuhikugu).
+-PDF Report Generator	AI-generated report includes tile map, summary, and risks.
+-Voice Summary (gTTS/Whisper)	Download short voice notes in multiple languages.
+-AskGPT Mode	Gradio chatbot to continue your research Q&A.
+-Save Research	Save results to dashboard or download for field use.
 
----
+Built Around Real Researcher Needs
+Research Goal	What AmazonExplorer Delivers
+“What can we plant here?”	GPT interprets NDVI to rate soil fertility + suggest crops.
+“Is this area safe to explore?”	Fire zones, roads, distance → route simulation + risk tags.
+“Is there any historical context?”	GPT includes known cultural/archaeological facts.
+“How dense is this terrain?”	Forest density from LIDAR + access notes via GPT.
+“How far is the nearest access point?”	GPT highlights distance to road/river and expedition plan.
 
-## 🧭 Features
+MVP Roadmap Summary
+Phase 1: Foundations
+Choose pilot region (e.g., Xingu near Kuhikugu)
 
-- 🛰️ **Map-based LIDAR + Satellite Explorer**
-- 🎯 **AI-assisted Research Task Launcher**
-- 🧠 **GPT Summaries** of terrain, anomalies, and historical context
-- 🧭 **Expedition Safety Analyzer** (risk, threats, routes)
-- 🌐 **Multilingual Reports** (English, Spanish, Portuguese)
-- 📂 **Save to Dashboard** for easy project management
-- 📄 **PDF Reports** and 🎧 **Voice Notes** for offline review
+Setup Leaflet map + LIDAR overlay
 
----
+FastAPI backend: analyze, save, respond
 
-## 🚀 Demo
+Phase 2: AI Pipeline
+GPT generates “area profiles” based on selected tiles
 
-> 🖼️ Screenshot 1: Drawing Area on Map  
-> 📄 Screenshot 2: Generated Research Summary  
-> 🎧 Screenshot 3: Voice Note + PDF Export  
-> 🗂️ Screenshot 4: Saved Project in Dashboard
+Task-to-query translation (e.g., "look near rivers")
 
----
+LIDAR anomaly detection (ring ditches, elevation bumps)
 
-## 🧪 How It Works
+Phase 3: Research Exports
+Multilingual reports (EN, PT, ES, FR)
 
-1. Draw a region on the map
-2. Define a research question (e.g., “Look for mounds or raised fields”)
-3. The system:
-   - Scans relevant LIDAR/satellite tiles
-   - Uses GPT-4 to summarize terrain, anomalies, and text references
-   - Outputs a short, actionable report
-4. Save the results to your personal dashboard
-5. Download PDF or listen to voice brief
+PDF + audio note generation
 
----
+Tile ranking system (GPT scoring)
 
-## 🛰️ Data Sources
+Phase 4: Expedition Planner
+Access routes, road/fire overlays
 
-- LIDAR Tile: `SRTM-DEM-Tile-12x14` (NASA OpenDEM)
-- Satellite Scene: Sentinel-2 `S2A_MSIL2A_20230415T143601`
-- Historical Reference: DOI `10.1126/science.abj8202`  
-(Heckenberger et al., 2021, Science)
+Risk summaries from GPT
 
----
+Phase 5: Polish + Submit
+End-to-end walkthrough video
 
-## 🔧 Stack
+Sample data: JSON, PDF, .mp3
 
-- Frontend: HTML + CSS + Vanilla JavaScript
-- Backend: FastAPI + Python
-- AI: OpenAI GPT-4 + VIA PYTHON SDK
-- Reports: Google TTS (voice) or whisper
-- Storage:LocalJSON/sqllite
-- Hosting: Github pages + python anywhere/stremlit for backend
+Screenshot set for judging panel
 
----
+Tech Stack
+Layer	Tool
+-Frontend	HTML + Leaflet.js + Gradio
+-Backend	FastAPI (Python)
+-AI	GPT-4 (OpenAI), gTTS for TTS
+-Data	Sentinel-2, OpenTopography LIDAR
+-Reports	WeasyPrint (HTML → PDF)
+-Hosting	Kaggle Notebooks (MVP), GitHub for version control
 
-## 📚 Contributors
+How It Works
+User selects a region from the map.
 
-- [Murugeshwari] – AI, Backend, LIDAR
-- [Murugeshwari] – UI/UX, Data Visualization
-- [Murugeshwari] – Research, Archaeology Mapping
+Enters research goal (e.g., “look for ancient settlements near rivers”).
 
----
+Backend pulls tile coordinates and invokes:
 
-## 📄 License
+LIDAR + Satellite overlay
 
-MIT
+GPT to generate area summary + risk + tile ranking
 
----
+gTTS to create audio note
 
-## 🤝 Acknowledgements
+WeasyPrint to generate PDF
 
-- OpenAI
-- NASA & ESA for open satellite/LIDAR data
-- Hackathon judges and organizing team
+User views the result, exports PDF/audio, or saves to dashboard.
+
+Repo Structure
+css
+Copy
+Edit
+amazonexplorer/
+├── frontend/ (leaflet UI + HTML)
+├── backend/ (FastAPI routes + GPT/voice modules)
+├── data/ (sample tiles)
+├── docs/ (screenshots, reports)
+├── reports/ (PDFs + audio)
+├── README.md
+
+Hackathon Checklist
+-Real region scanned
+-Satellite + LIDAR data used
+-GPT-generated insights
+-Historical + environmental outputs
+-Exported voice + PDF reports
+-Multilingual support
+-Fully reproducible pipeline
+-Researcher needs mapped and satisfied
+
+
