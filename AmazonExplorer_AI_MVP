@@ -3,26 +3,48 @@
   {
    "cell_type": "code",
    "execution_count": 1,
-   "id": "a188a4c0",
+   "id": "fe610dc9",
    "metadata": {
     "_cell_guid": "b1076dfc-b9ad-4769-8c92-a6c4dae69d19",
     "_uuid": "8f2839f25d086af736a60e9eeb907d3b93b6e0e5",
     "execution": {
-     "iopub.execute_input": "2025-05-23T21:50:20.046395Z",
-     "iopub.status.busy": "2025-05-23T21:50:20.046087Z",
-     "iopub.status.idle": "2025-05-23T21:50:22.323923Z",
-     "shell.execute_reply": "2025-05-23T21:50:22.322712Z"
+     "iopub.execute_input": "2025-05-29T22:39:21.977525Z",
+     "iopub.status.busy": "2025-05-29T22:39:21.977112Z",
+     "iopub.status.idle": "2025-05-29T22:39:24.173695Z",
+     "shell.execute_reply": "2025-05-29T22:39:24.172663Z"
     },
     "papermill": {
-     "duration": 2.283673,
-     "end_time": "2025-05-23T21:50:22.325881",
+     "duration": 2.202167,
+     "end_time": "2025-05-29T22:39:24.175541",
      "exception": false,
-     "start_time": "2025-05-23T21:50:20.042208",
+     "start_time": "2025-05-29T22:39:21.973374",
      "status": "completed"
     },
     "tags": []
    },
-   "outputs": [],
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "/kaggle/input/dataset-amazonexplorer/viz.be_roughness.tif\n",
+      "/kaggle/input/dataset-amazonexplorer/viz.be_hillshade.tif\n",
+      "/kaggle/input/dataset-amazonexplorer/viz.be_slope.tif\n",
+      "/kaggle/input/dataset-amazonexplorer/viz.be_aspect.tif\n",
+      "/kaggle/input/dataset-amazonexplorer/viz.be_hillshade-color.tif\n",
+      "/kaggle/input/dataset-amazonexplorer/viz.be_color-relief.tif\n",
+      "/kaggle/input/dataset-amazonexplorer/output_hh.tif\n",
+      "/kaggle/input/dataset-amazonexplorer/output_be.tif\n",
+      "/kaggle/input/dataset-amazonexplorer/viz/viz.hh_slope.tif\n",
+      "/kaggle/input/dataset-amazonexplorer/viz/viz.hh_aspect.tif\n",
+      "/kaggle/input/dataset-amazonexplorer/viz/viz.hh_roughness.tif\n",
+      "/kaggle/input/dataset-amazonexplorer/viz/viz.hh_color-relief.tif\n",
+      "/kaggle/input/dataset-amazonexplorer/viz/viz.hh_hillshade.tif\n",
+      "/kaggle/input/dataset-amazonexplorer/viz/viz.hh_hillshade-color.tif\n",
+      "/kaggle/input/openai-to-z-challenge/README\n"
+     ]
+    }
+   ],
    "source": [
     "# This Python 3 environment comes with many helpful analytics libraries installed\n",
     "# It is defined by the kaggle/python Docker image: https://github.com/kaggle/docker-python\n",
@@ -45,13 +67,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "eb43c9ba",
+   "id": "6f153aec",
    "metadata": {
     "papermill": {
-     "duration": 0.001528,
-     "end_time": "2025-05-23T21:50:22.329581",
+     "duration": 0.001974,
+     "end_time": "2025-05-29T22:39:24.179877",
      "exception": false,
-     "start_time": "2025-05-23T21:50:22.328053",
+     "start_time": "2025-05-29T22:39:24.177903",
      "status": "completed"
     },
     "tags": []
@@ -72,19 +94,19 @@
   {
    "cell_type": "code",
    "execution_count": 2,
-   "id": "84de6400",
+   "id": "3f4b7fbc",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-05-23T21:50:22.334462Z",
-     "iopub.status.busy": "2025-05-23T21:50:22.334028Z",
-     "iopub.status.idle": "2025-05-23T21:50:41.443772Z",
-     "shell.execute_reply": "2025-05-23T21:50:41.442200Z"
+     "iopub.execute_input": "2025-05-29T22:39:24.185040Z",
+     "iopub.status.busy": "2025-05-29T22:39:24.184585Z",
+     "iopub.status.idle": "2025-05-29T22:39:40.032513Z",
+     "shell.execute_reply": "2025-05-29T22:39:40.031114Z"
     },
     "papermill": {
-     "duration": 19.114429,
-     "end_time": "2025-05-23T21:50:41.445668",
+     "duration": 15.85276,
+     "end_time": "2025-05-29T22:39:40.034595",
      "exception": false,
-     "start_time": "2025-05-23T21:50:22.331239",
+     "start_time": "2025-05-29T22:39:24.181835",
      "status": "completed"
     },
     "tags": []
@@ -100,7 +122,7 @@
       "  Downloading uvicorn-0.34.2-py3-none-any.whl.metadata (6.5 kB)\r\n",
       "Requirement already satisfied: nest-asyncio in /usr/local/lib/python3.11/dist-packages (1.6.0)\r\n",
       "Collecting pyngrok\r\n",
-      "  Downloading pyngrok-7.2.8-py3-none-any.whl.metadata (10 kB)\r\n",
+      "  Downloading pyngrok-7.2.9-py3-none-any.whl.metadata (9.3 kB)\r\n",
       "Requirement already satisfied: openai in /usr/local/lib/python3.11/dist-packages (1.70.0)\r\n",
       "Collecting gtts\r\n",
       "  Downloading gTTS-2.5.4-py3-none-any.whl.metadata (4.1 kB)\r\n",
@@ -152,7 +174,7 @@
       "Collecting python-multipart>=0.0.18 (from gradio)\r\n",
       "  Downloading python_multipart-0.0.20-py3-none-any.whl.metadata (1.8 kB)\r\n",
       "Collecting ruff>=0.9.3 (from gradio)\r\n",
-      "  Downloading ruff-0.11.11-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (25 kB)\r\n",
+      "  Downloading ruff-0.11.12-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (25 kB)\r\n",
       "Collecting safehttpx<0.2.0,>=0.1.6 (from gradio)\r\n",
       "  Downloading safehttpx-0.1.6-py3-none-any.whl.metadata (4.2 kB)\r\n",
       "Collecting semantic-version~=2.0 (from gradio)\r\n",
@@ -199,38 +221,38 @@
       "Requirement already satisfied: intel-cmplr-lib-ur==2024.2.0 in /usr/local/lib/python3.11/dist-packages (from intel-openmp<2026,>=2024->mkl->numpy<3.0,>=1.0->gradio) (2024.2.0)\r\n",
       "Requirement already satisfied: mdurl~=0.1 in /usr/local/lib/python3.11/dist-packages (from markdown-it-py>=2.2.0->rich>=10.11.0->typer<1.0,>=0.12->gradio) (0.1.2)\r\n",
       "Downloading fastapi-0.115.12-py3-none-any.whl (95 kB)\r\n",
-      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m95.2/95.2 kB\u001b[0m \u001b[31m4.4 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
+      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m95.2/95.2 kB\u001b[0m \u001b[31m2.9 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
       "\u001b[?25hDownloading uvicorn-0.34.2-py3-none-any.whl (62 kB)\r\n",
-      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m62.5/62.5 kB\u001b[0m \u001b[31m2.8 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
-      "\u001b[?25hDownloading pyngrok-7.2.8-py3-none-any.whl (25 kB)\r\n",
+      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m62.5/62.5 kB\u001b[0m \u001b[31m2.6 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
+      "\u001b[?25hDownloading pyngrok-7.2.9-py3-none-any.whl (25 kB)\r\n",
       "Downloading gTTS-2.5.4-py3-none-any.whl (29 kB)\r\n",
       "Downloading weasyprint-65.1-py3-none-any.whl (298 kB)\r\n",
-      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m298.0/298.0 kB\u001b[0m \u001b[31m12.8 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
+      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m298.0/298.0 kB\u001b[0m \u001b[31m9.0 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
       "\u001b[?25hDownloading gradio-5.31.0-py3-none-any.whl (54.2 MB)\r\n",
-      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m54.2/54.2 MB\u001b[0m \u001b[31m12.4 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
+      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m54.2/54.2 MB\u001b[0m \u001b[31m27.3 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
       "\u001b[?25hDownloading gradio_client-1.10.1-py3-none-any.whl (323 kB)\r\n",
-      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m323.1/323.1 kB\u001b[0m \u001b[31m11.0 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
+      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m323.1/323.1 kB\u001b[0m \u001b[31m14.1 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
       "\u001b[?25hDownloading cssselect2-0.8.0-py3-none-any.whl (15 kB)\r\n",
       "Downloading groovy-0.1.2-py3-none-any.whl (14 kB)\r\n",
       "Downloading pydyf-0.11.0-py3-none-any.whl (8.1 kB)\r\n",
       "Downloading pyphen-0.17.2-py3-none-any.whl (2.1 MB)\r\n",
-      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m2.1/2.1 MB\u001b[0m \u001b[31m9.3 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
+      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m2.1/2.1 MB\u001b[0m \u001b[31m46.9 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
       "\u001b[?25hDownloading python_multipart-0.0.20-py3-none-any.whl (24 kB)\r\n",
-      "Downloading ruff-0.11.11-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (11.5 MB)\r\n",
-      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m11.5/11.5 MB\u001b[0m \u001b[31m15.6 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
+      "Downloading ruff-0.11.12-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (11.5 MB)\r\n",
+      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m11.5/11.5 MB\u001b[0m \u001b[31m82.7 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
       "\u001b[?25hDownloading safehttpx-0.1.6-py3-none-any.whl (8.7 kB)\r\n",
       "Downloading semantic_version-2.10.0-py2.py3-none-any.whl (15 kB)\r\n",
       "Downloading starlette-0.46.2-py3-none-any.whl (72 kB)\r\n",
-      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m72.0/72.0 kB\u001b[0m \u001b[31m3.5 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
+      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m72.0/72.0 kB\u001b[0m \u001b[31m3.4 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
       "\u001b[?25hDownloading tinyhtml5-2.0.0-py3-none-any.whl (39 kB)\r\n",
       "Downloading tomlkit-0.13.2-py3-none-any.whl (37 kB)\r\n",
       "Downloading ffmpy-0.5.0-py3-none-any.whl (6.0 kB)\r\n",
       "Downloading Brotli-1.1.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (2.9 MB)\r\n",
-      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m2.9/2.9 MB\u001b[0m \u001b[31m19.4 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
+      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m2.9/2.9 MB\u001b[0m \u001b[31m53.6 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
       "\u001b[?25hDownloading zopfli-0.2.3.post1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (850 kB)\r\n",
-      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m850.6/850.6 kB\u001b[0m \u001b[31m15.6 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
+      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m850.6/850.6 kB\u001b[0m \u001b[31m30.1 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
       "\u001b[?25hInstalling collected packages: brotli, zopfli, uvicorn, tomlkit, tinyhtml5, semantic-version, ruff, python-multipart, Pyphen, pyngrok, pydyf, groovy, ffmpy, starlette, gtts, cssselect2, weasyprint, safehttpx, gradio-client, fastapi, gradio\r\n",
-      "Successfully installed Pyphen-0.17.2 brotli-1.1.0 cssselect2-0.8.0 fastapi-0.115.12 ffmpy-0.5.0 gradio-5.31.0 gradio-client-1.10.1 groovy-0.1.2 gtts-2.5.4 pydyf-0.11.0 pyngrok-7.2.8 python-multipart-0.0.20 ruff-0.11.11 safehttpx-0.1.6 semantic-version-2.10.0 starlette-0.46.2 tinyhtml5-2.0.0 tomlkit-0.13.2 uvicorn-0.34.2 weasyprint-65.1 zopfli-0.2.3.post1\r\n"
+      "Successfully installed Pyphen-0.17.2 brotli-1.1.0 cssselect2-0.8.0 fastapi-0.115.12 ffmpy-0.5.0 gradio-5.31.0 gradio-client-1.10.1 groovy-0.1.2 gtts-2.5.4 pydyf-0.11.0 pyngrok-7.2.9 python-multipart-0.0.20 ruff-0.11.12 safehttpx-0.1.6 semantic-version-2.10.0 starlette-0.46.2 tinyhtml5-2.0.0 tomlkit-0.13.2 uvicorn-0.34.2 weasyprint-65.1 zopfli-0.2.3.post1\r\n"
      ]
     }
    ],
@@ -241,26 +263,68 @@
   },
   {
    "cell_type": "code",
-   "execution_count": null,
-   "id": "bb94e029",
+   "execution_count": 3,
+   "id": "91128a21",
    "metadata": {
+    "execution": {
+     "iopub.execute_input": "2025-05-29T22:39:40.048392Z",
+     "iopub.status.busy": "2025-05-29T22:39:40.047884Z",
+     "iopub.status.idle": "2025-05-29T22:39:40.055928Z",
+     "shell.execute_reply": "2025-05-29T22:39:40.055039Z"
+    },
     "papermill": {
-     "duration": 0.008069,
-     "end_time": "2025-05-23T21:50:41.463605",
+     "duration": 0.016915,
+     "end_time": "2025-05-29T22:39:40.057785",
      "exception": false,
-     "start_time": "2025-05-23T21:50:41.455536",
+     "start_time": "2025-05-29T22:39:40.040870",
      "status": "completed"
     },
     "tags": []
    },
-   "outputs": [],
-   "source": []
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "📁 Project folders created.\n"
+     ]
+    }
+   ],
+   "source": [
+    "import os\n",
+    "\n",
+    "folders = [\n",
+    "    \"amazonexplorer/data\",\n",
+    "    \"amazonexplorer/backend\",\n",
+    "    \"amazonexplorer/gpt\",\n",
+    "    \"amazonexplorer/reports\",\n",
+    "    \"amazonexplorer/ui\",\n",
+    "    \"amazonexplorer/utils\",\n",
+    "    \"amazonexplorer/saved\"\n",
+    "]\n",
+    "\n",
+    "for folder in folders:\n",
+    "    os.makedirs(folder, exist_ok=True)\n",
+    "\n",
+    "print(\"📁 Project folders created.\")\n"
+   ]
   }
  ],
  "metadata": {
   "kaggle": {
    "accelerator": "none",
-   "dataSources": [],
+   "dataSources": [
+    {
+     "databundleVersionId": 12334818,
+     "sourceId": 101597,
+     "sourceType": "competition"
+    },
+    {
+     "datasetId": 7548948,
+     "sourceId": 12000497,
+     "sourceType": "datasetVersion"
+    }
+   ],
    "dockerImageVersionId": 31040,
    "isGpuEnabled": false,
    "isInternetEnabled": true,
@@ -286,14 +350,14 @@
   },
   "papermill": {
    "default_parameters": {},
-   "duration": 27.624861,
-   "end_time": "2025-05-23T21:50:42.093575",
+   "duration": 23.969667,
+   "end_time": "2025-05-29T22:39:40.684167",
    "environment_variables": {},
    "exception": null,
    "input_path": "__notebook__.ipynb",
    "output_path": "__notebook__.ipynb",
    "parameters": {},
-   "start_time": "2025-05-23T21:50:14.468714",
+   "start_time": "2025-05-29T22:39:16.714500",
    "version": "2.6.0"
   }
  },
