@@ -3,21 +3,21 @@
   {
    "cell_type": "code",
    "execution_count": 1,
-   "id": "8a9fda80",
+   "id": "32282c6c",
    "metadata": {
     "_cell_guid": "b1076dfc-b9ad-4769-8c92-a6c4dae69d19",
     "_uuid": "8f2839f25d086af736a60e9eeb907d3b93b6e0e5",
     "execution": {
-     "iopub.execute_input": "2025-05-30T21:50:35.900600Z",
-     "iopub.status.busy": "2025-05-30T21:50:35.900162Z",
-     "iopub.status.idle": "2025-05-30T21:50:38.219420Z",
-     "shell.execute_reply": "2025-05-30T21:50:38.218316Z"
+     "iopub.execute_input": "2025-06-02T21:31:47.067480Z",
+     "iopub.status.busy": "2025-06-02T21:31:47.066919Z",
+     "iopub.status.idle": "2025-06-02T21:31:49.890451Z",
+     "shell.execute_reply": "2025-06-02T21:31:49.888692Z"
     },
     "papermill": {
-     "duration": 2.325295,
-     "end_time": "2025-05-30T21:50:38.221577",
+     "duration": 2.831905,
+     "end_time": "2025-06-02T21:31:49.893305",
      "exception": false,
-     "start_time": "2025-05-30T21:50:35.896282",
+     "start_time": "2025-06-02T21:31:47.061400",
      "status": "completed"
     },
     "tags": []
@@ -27,6 +27,30 @@
      "name": "stdout",
      "output_type": "stream",
      "text": [
+      "/kaggle/input/soil-data/out (2).tif\n",
+      "/kaggle/input/soil-data/out.tif\n",
+      "/kaggle/input/soil-data/out (1).tif\n",
+      "/kaggle/input/soil-data/out (4).tif\n",
+      "/kaggle/input/soil-data/out (5).tif\n",
+      "/kaggle/input/soil-data/out (3).tif\n",
+      "/kaggle/input/vegetation-index-ndvi/2025-05-09-00_00_2025-05-09-23_59_Sentinel-2_L2A_Scene_classification_map.jpg\n",
+      "/kaggle/input/vegetation-index-ndvi/2025-05-30-00_00_2025-05-30-23_59_Sentinel-2_L2A_NDVI.jpg\n",
+      "/kaggle/input/vegetation-index-ndvi/2025-05-09-00_00_2025-05-09-23_59_Sentinel-2_L2A_False_color.jpg\n",
+      "/kaggle/input/vegetation-index-ndvi/2025-05-09-00_00_2025-05-09-23_59_Sentinel-2_L2A_NDVI.jpg\n",
+      "/kaggle/input/vegetation-index-ndvi/2025-05-09-00_00_2025-05-09-23_59_Sentinel-2_L2A_Moisture_index.jpg\n",
+      "/kaggle/input/vegetation-index-ndvi/2025-05-30-00_00_2025-05-30-23_59_Sentinel-2_L2A_False_color_(urban).jpg\n",
+      "/kaggle/input/vegetation-index-ndvi/2025-05-30-00_00_2025-05-30-23_59_Sentinel-2_L2A_Moisture_index.jpg\n",
+      "/kaggle/input/vegetation-index-ndvi/2025-05-09-00_00_2025-05-09-23_59_Sentinel-2_L2A_True_color.jpg\n",
+      "/kaggle/input/vegetation-index-ndvi/2025-05-09-00_00_2025-05-09-23_59_Sentinel-2_L2A_SWIR.jpg\n",
+      "/kaggle/input/vegetation-index-ndvi/2025-05-09-00_00_2025-05-09-23_59_Sentinel-2_L2A_NDWI.jpg\n",
+      "/kaggle/input/vegetation-index-ndvi/2025-05-30-00_00_2025-05-30-23_59_Sentinel-2_L2A_Highlight_Optimized_Natural_Color.jpg\n",
+      "/kaggle/input/viirs-active-fire-data/J1_VIIRS_C2_South_America_7d.shp\n",
+      "/kaggle/input/viirs-active-fire-data/J1_VIIRS_C2_South_America_7d.shx\n",
+      "/kaggle/input/archaeo-sites-csv/archaeo_sites.csv  - Sheet1.csv\n",
+      "/kaggle/input/human-settlement-data-and-roadsosm-data/BrazilCopernicus Global Human Settlement Layer (GHSL).tif\n",
+      "/kaggle/input/human-settlement-data-and-roadsosm-data/BrazilCopernicus Global Human Settlement Layer (GHSL) 2.tif\n",
+      "/kaggle/input/human-settlement-data-and-roadsosm-data/brazil-latest.osm.pbf\n",
+      "/kaggle/input/openai-to-z-challenge/README\n",
       "/kaggle/input/amazon-lc14-deforestation-scenarios-2020-2050/Governance_2010.tif\n",
       "/kaggle/input/amazon-lc14-deforestation-scenarios-2020-2050/Business_as_Usual_2033.tif\n",
       "/kaggle/input/amazon-lc14-deforestation-scenarios-2020-2050/Business_as_Usual_2020.tif\n",
@@ -126,21 +150,6 @@
       "/kaggle/input/amazon-lc14-deforestation-scenarios-2020-2050/Business_as_Usual_2037.tif\n",
       "/kaggle/input/amazon-lc14-deforestation-scenarios-2020-2050/Governance_2025.tif\n",
       "/kaggle/input/amazon-lc14-deforestation-scenarios-2020-2050/Governance_2007.tif\n",
-      "/kaggle/input/openai-to-z-challenge/README\n",
-      "/kaggle/input/human-settlement-data-and-roadsosm-data/BrazilCopernicus Global Human Settlement Layer (GHSL).tif\n",
-      "/kaggle/input/human-settlement-data-and-roadsosm-data/BrazilCopernicus Global Human Settlement Layer (GHSL) 2.tif\n",
-      "/kaggle/input/human-settlement-data-and-roadsosm-data/brazil-latest.osm.pbf\n",
-      "/kaggle/input/vegetation-index-ndvi/2025-05-09-00_00_2025-05-09-23_59_Sentinel-2_L2A_Scene_classification_map.jpg\n",
-      "/kaggle/input/vegetation-index-ndvi/2025-05-30-00_00_2025-05-30-23_59_Sentinel-2_L2A_NDVI.jpg\n",
-      "/kaggle/input/vegetation-index-ndvi/2025-05-09-00_00_2025-05-09-23_59_Sentinel-2_L2A_False_color.jpg\n",
-      "/kaggle/input/vegetation-index-ndvi/2025-05-09-00_00_2025-05-09-23_59_Sentinel-2_L2A_NDVI.jpg\n",
-      "/kaggle/input/vegetation-index-ndvi/2025-05-09-00_00_2025-05-09-23_59_Sentinel-2_L2A_Moisture_index.jpg\n",
-      "/kaggle/input/vegetation-index-ndvi/2025-05-30-00_00_2025-05-30-23_59_Sentinel-2_L2A_False_color_(urban).jpg\n",
-      "/kaggle/input/vegetation-index-ndvi/2025-05-30-00_00_2025-05-30-23_59_Sentinel-2_L2A_Moisture_index.jpg\n",
-      "/kaggle/input/vegetation-index-ndvi/2025-05-09-00_00_2025-05-09-23_59_Sentinel-2_L2A_True_color.jpg\n",
-      "/kaggle/input/vegetation-index-ndvi/2025-05-09-00_00_2025-05-09-23_59_Sentinel-2_L2A_SWIR.jpg\n",
-      "/kaggle/input/vegetation-index-ndvi/2025-05-09-00_00_2025-05-09-23_59_Sentinel-2_L2A_NDWI.jpg\n",
-      "/kaggle/input/vegetation-index-ndvi/2025-05-30-00_00_2025-05-30-23_59_Sentinel-2_L2A_Highlight_Optimized_Natural_Color.jpg\n",
       "/kaggle/input/dataset-amazonexplorer/viz.be_roughness.tif\n",
       "/kaggle/input/dataset-amazonexplorer/viz.be_hillshade.tif\n",
       "/kaggle/input/dataset-amazonexplorer/viz.be_slope.tif\n",
@@ -180,13 +189,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "03c6dbd8",
+   "id": "98ebbabf",
    "metadata": {
     "papermill": {
-     "duration": 0.001766,
-     "end_time": "2025-05-30T21:50:38.225916",
+     "duration": 0.002387,
+     "end_time": "2025-06-02T21:31:49.899427",
      "exception": false,
-     "start_time": "2025-05-30T21:50:38.224150",
+     "start_time": "2025-06-02T21:31:49.897040",
      "status": "completed"
     },
     "tags": []
@@ -207,19 +216,19 @@
   {
    "cell_type": "code",
    "execution_count": 2,
-   "id": "3aaec276",
+   "id": "85850467",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-05-30T21:50:38.231745Z",
-     "iopub.status.busy": "2025-05-30T21:50:38.231278Z",
-     "iopub.status.idle": "2025-05-30T21:50:53.977715Z",
-     "shell.execute_reply": "2025-05-30T21:50:53.976501Z"
+     "iopub.execute_input": "2025-06-02T21:31:49.907166Z",
+     "iopub.status.busy": "2025-06-02T21:31:49.906550Z",
+     "iopub.status.idle": "2025-06-02T21:32:08.585146Z",
+     "shell.execute_reply": "2025-06-02T21:32:08.583511Z"
     },
     "papermill": {
-     "duration": 15.751404,
-     "end_time": "2025-05-30T21:50:53.979690",
+     "duration": 18.685659,
+     "end_time": "2025-06-02T21:32:08.587708",
      "exception": false,
-     "start_time": "2025-05-30T21:50:38.228286",
+     "start_time": "2025-06-02T21:31:49.902049",
      "status": "completed"
     },
     "tags": []
@@ -232,7 +241,7 @@
       "Collecting fastapi\r\n",
       "  Downloading fastapi-0.115.12-py3-none-any.whl.metadata (27 kB)\r\n",
       "Collecting uvicorn\r\n",
-      "  Downloading uvicorn-0.34.2-py3-none-any.whl.metadata (6.5 kB)\r\n",
+      "  Downloading uvicorn-0.34.3-py3-none-any.whl.metadata (6.5 kB)\r\n",
       "Requirement already satisfied: nest-asyncio in /usr/local/lib/python3.11/dist-packages (1.6.0)\r\n",
       "Collecting pyngrok\r\n",
       "  Downloading pyngrok-7.2.9-py3-none-any.whl.metadata (9.3 kB)\r\n",
@@ -242,7 +251,7 @@
       "Collecting weasyprint\r\n",
       "  Downloading weasyprint-65.1-py3-none-any.whl.metadata (3.7 kB)\r\n",
       "Collecting gradio\r\n",
-      "  Downloading gradio-5.32.0-py3-none-any.whl.metadata (16 kB)\r\n",
+      "  Downloading gradio-5.32.1-py3-none-any.whl.metadata (16 kB)\r\n",
       "Collecting starlette<0.47.0,>=0.40.0 (from fastapi)\r\n",
       "  Downloading starlette-0.46.2-py3-none-any.whl.metadata (6.2 kB)\r\n",
       "Requirement already satisfied: pydantic!=1.8,!=1.8.1,!=2.0.0,!=2.0.1,!=2.1.0,<3.0.0,>=1.7.4 in /usr/local/lib/python3.11/dist-packages (from fastapi) (2.11.4)\r\n",
@@ -271,7 +280,7 @@
       "Requirement already satisfied: fonttools>=4.0.0 in /usr/local/lib/python3.11/dist-packages (from fonttools[woff]>=4.0.0->weasyprint) (4.57.0)\r\n",
       "Requirement already satisfied: aiofiles<25.0,>=22.0 in /usr/local/lib/python3.11/dist-packages (from gradio) (22.1.0)\r\n",
       "Collecting ffmpy (from gradio)\r\n",
-      "  Downloading ffmpy-0.5.0-py3-none-any.whl.metadata (3.0 kB)\r\n",
+      "  Downloading ffmpy-0.6.0-py3-none-any.whl.metadata (2.9 kB)\r\n",
       "Collecting gradio-client==1.10.2 (from gradio)\r\n",
       "  Downloading gradio_client-1.10.2-py3-none-any.whl.metadata (7.1 kB)\r\n",
       "Collecting groovy~=0.1 (from gradio)\r\n",
@@ -334,38 +343,38 @@
       "Requirement already satisfied: intel-cmplr-lib-ur==2024.2.0 in /usr/local/lib/python3.11/dist-packages (from intel-openmp<2026,>=2024->mkl->numpy<3.0,>=1.0->gradio) (2024.2.0)\r\n",
       "Requirement already satisfied: mdurl~=0.1 in /usr/local/lib/python3.11/dist-packages (from markdown-it-py>=2.2.0->rich>=10.11.0->typer<1.0,>=0.12->gradio) (0.1.2)\r\n",
       "Downloading fastapi-0.115.12-py3-none-any.whl (95 kB)\r\n",
-      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m95.2/95.2 kB\u001b[0m \u001b[31m3.1 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
-      "\u001b[?25hDownloading uvicorn-0.34.2-py3-none-any.whl (62 kB)\r\n",
-      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m62.5/62.5 kB\u001b[0m \u001b[31m2.7 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
+      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m95.2/95.2 kB\u001b[0m \u001b[31m3.4 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
+      "\u001b[?25hDownloading uvicorn-0.34.3-py3-none-any.whl (62 kB)\r\n",
+      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m62.4/62.4 kB\u001b[0m \u001b[31m2.2 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
       "\u001b[?25hDownloading pyngrok-7.2.9-py3-none-any.whl (25 kB)\r\n",
       "Downloading gTTS-2.5.4-py3-none-any.whl (29 kB)\r\n",
       "Downloading weasyprint-65.1-py3-none-any.whl (298 kB)\r\n",
-      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m298.0/298.0 kB\u001b[0m \u001b[31m8.7 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
-      "\u001b[?25hDownloading gradio-5.32.0-py3-none-any.whl (54.2 MB)\r\n",
-      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m54.2/54.2 MB\u001b[0m \u001b[31m25.5 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
+      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m298.0/298.0 kB\u001b[0m \u001b[31m10.5 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
+      "\u001b[?25hDownloading gradio-5.32.1-py3-none-any.whl (54.2 MB)\r\n",
+      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m54.2/54.2 MB\u001b[0m \u001b[31m27.4 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
       "\u001b[?25hDownloading gradio_client-1.10.2-py3-none-any.whl (323 kB)\r\n",
-      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m323.3/323.3 kB\u001b[0m \u001b[31m14.0 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
+      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m323.3/323.3 kB\u001b[0m \u001b[31m13.1 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
       "\u001b[?25hDownloading cssselect2-0.8.0-py3-none-any.whl (15 kB)\r\n",
       "Downloading groovy-0.1.2-py3-none-any.whl (14 kB)\r\n",
       "Downloading pydyf-0.11.0-py3-none-any.whl (8.1 kB)\r\n",
       "Downloading pyphen-0.17.2-py3-none-any.whl (2.1 MB)\r\n",
-      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m2.1/2.1 MB\u001b[0m \u001b[31m54.2 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
+      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m2.1/2.1 MB\u001b[0m \u001b[31m42.9 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
       "\u001b[?25hDownloading python_multipart-0.0.20-py3-none-any.whl (24 kB)\r\n",
       "Downloading ruff-0.11.12-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (11.5 MB)\r\n",
-      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m11.5/11.5 MB\u001b[0m \u001b[31m87.0 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
+      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m11.5/11.5 MB\u001b[0m \u001b[31m65.7 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
       "\u001b[?25hDownloading safehttpx-0.1.6-py3-none-any.whl (8.7 kB)\r\n",
       "Downloading semantic_version-2.10.0-py2.py3-none-any.whl (15 kB)\r\n",
       "Downloading starlette-0.46.2-py3-none-any.whl (72 kB)\r\n",
-      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m72.0/72.0 kB\u001b[0m \u001b[31m3.4 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
+      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m72.0/72.0 kB\u001b[0m \u001b[31m2.2 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
       "\u001b[?25hDownloading tinyhtml5-2.0.0-py3-none-any.whl (39 kB)\r\n",
       "Downloading tomlkit-0.13.2-py3-none-any.whl (37 kB)\r\n",
-      "Downloading ffmpy-0.5.0-py3-none-any.whl (6.0 kB)\r\n",
+      "Downloading ffmpy-0.6.0-py3-none-any.whl (5.5 kB)\r\n",
       "Downloading Brotli-1.1.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (2.9 MB)\r\n",
-      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m2.9/2.9 MB\u001b[0m \u001b[31m60.8 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
+      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m2.9/2.9 MB\u001b[0m \u001b[31m51.6 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
       "\u001b[?25hDownloading zopfli-0.2.3.post1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (850 kB)\r\n",
-      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m850.6/850.6 kB\u001b[0m \u001b[31m28.3 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
+      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m850.6/850.6 kB\u001b[0m \u001b[31m28.1 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
       "\u001b[?25hInstalling collected packages: brotli, zopfli, uvicorn, tomlkit, tinyhtml5, semantic-version, ruff, python-multipart, Pyphen, pyngrok, pydyf, groovy, ffmpy, starlette, gtts, cssselect2, weasyprint, safehttpx, gradio-client, fastapi, gradio\r\n",
-      "Successfully installed Pyphen-0.17.2 brotli-1.1.0 cssselect2-0.8.0 fastapi-0.115.12 ffmpy-0.5.0 gradio-5.32.0 gradio-client-1.10.2 groovy-0.1.2 gtts-2.5.4 pydyf-0.11.0 pyngrok-7.2.9 python-multipart-0.0.20 ruff-0.11.12 safehttpx-0.1.6 semantic-version-2.10.0 starlette-0.46.2 tinyhtml5-2.0.0 tomlkit-0.13.2 uvicorn-0.34.2 weasyprint-65.1 zopfli-0.2.3.post1\r\n"
+      "Successfully installed Pyphen-0.17.2 brotli-1.1.0 cssselect2-0.8.0 fastapi-0.115.12 ffmpy-0.6.0 gradio-5.32.1 gradio-client-1.10.2 groovy-0.1.2 gtts-2.5.4 pydyf-0.11.0 pyngrok-7.2.9 python-multipart-0.0.20 ruff-0.11.12 safehttpx-0.1.6 semantic-version-2.10.0 starlette-0.46.2 tinyhtml5-2.0.0 tomlkit-0.13.2 uvicorn-0.34.3 weasyprint-65.1 zopfli-0.2.3.post1\r\n"
      ]
     }
    ],
@@ -377,19 +386,19 @@
   {
    "cell_type": "code",
    "execution_count": 3,
-   "id": "6de3a8ea",
+   "id": "7d2305ae",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-05-30T21:50:53.993686Z",
-     "iopub.status.busy": "2025-05-30T21:50:53.993277Z",
-     "iopub.status.idle": "2025-05-30T21:50:54.000906Z",
-     "shell.execute_reply": "2025-05-30T21:50:53.999765Z"
+     "iopub.execute_input": "2025-06-02T21:32:08.605777Z",
+     "iopub.status.busy": "2025-06-02T21:32:08.605317Z",
+     "iopub.status.idle": "2025-06-02T21:32:08.616391Z",
+     "shell.execute_reply": "2025-06-02T21:32:08.614696Z"
     },
     "papermill": {
-     "duration": 0.016565,
-     "end_time": "2025-05-30T21:50:54.002675",
+     "duration": 0.022959,
+     "end_time": "2025-06-02T21:32:08.618995",
      "exception": false,
-     "start_time": "2025-05-30T21:50:53.986110",
+     "start_time": "2025-06-02T21:32:08.596036",
      "status": "completed"
     },
     "tags": []
@@ -451,6 +460,21 @@
      "datasetId": 7556562,
      "sourceId": 12011312,
      "sourceType": "datasetVersion"
+    },
+    {
+     "datasetId": 7576526,
+     "sourceId": 12040349,
+     "sourceType": "datasetVersion"
+    },
+    {
+     "datasetId": 7576531,
+     "sourceId": 12040355,
+     "sourceType": "datasetVersion"
+    },
+    {
+     "datasetId": 7576559,
+     "sourceId": 12040398,
+     "sourceType": "datasetVersion"
     }
    ],
    "dockerImageVersionId": 31040,
@@ -478,14 +502,14 @@
   },
   "papermill": {
    "default_parameters": {},
-   "duration": 23.89914,
-   "end_time": "2025-05-30T21:50:54.630479",
+   "duration": 30.61523,
+   "end_time": "2025-06-02T21:32:09.351287",
    "environment_variables": {},
    "exception": null,
    "input_path": "__notebook__.ipynb",
    "output_path": "__notebook__.ipynb",
    "parameters": {},
-   "start_time": "2025-05-30T21:50:30.731339",
+   "start_time": "2025-06-02T21:31:38.736057",
    "version": "2.6.0"
   }
  },
