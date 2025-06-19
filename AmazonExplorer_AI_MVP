@@ -3,21 +3,21 @@
   {
    "cell_type": "code",
    "execution_count": 1,
-   "id": "65b02f98",
+   "id": "1be9e2f3",
    "metadata": {
     "_cell_guid": "b1076dfc-b9ad-4769-8c92-a6c4dae69d19",
     "_uuid": "8f2839f25d086af736a60e9eeb907d3b93b6e0e5",
     "execution": {
-     "iopub.execute_input": "2025-06-11T20:49:43.302279Z",
-     "iopub.status.busy": "2025-06-11T20:49:43.301909Z",
-     "iopub.status.idle": "2025-06-11T20:49:45.385865Z",
-     "shell.execute_reply": "2025-06-11T20:49:45.384852Z"
+     "iopub.execute_input": "2025-06-19T21:20:22.335446Z",
+     "iopub.status.busy": "2025-06-19T21:20:22.335142Z",
+     "iopub.status.idle": "2025-06-19T21:20:24.259534Z",
+     "shell.execute_reply": "2025-06-19T21:20:24.258472Z"
     },
     "papermill": {
-     "duration": 2.091473,
-     "end_time": "2025-06-11T20:49:45.387892",
+     "duration": 1.934183,
+     "end_time": "2025-06-19T21:20:24.261536",
      "exception": false,
-     "start_time": "2025-06-11T20:49:43.296419",
+     "start_time": "2025-06-19T21:20:22.327353",
      "status": "completed"
     },
     "tags": []
@@ -27,20 +27,6 @@
      "name": "stdout",
      "output_type": "stream",
      "text": [
-      "/kaggle/input/human-settlement-data-and-roadsosm-data/BrazilCopernicus Global Human Settlement Layer (GHSL).tif\n",
-      "/kaggle/input/human-settlement-data-and-roadsosm-data/BrazilCopernicus Global Human Settlement Layer (GHSL) 2.tif\n",
-      "/kaggle/input/human-settlement-data-and-roadsosm-data/brazil-latest.osm.pbf\n",
-      "/kaggle/input/vegetation-index-ndvi/2025-05-09-00_00_2025-05-09-23_59_Sentinel-2_L2A_Scene_classification_map.jpg\n",
-      "/kaggle/input/vegetation-index-ndvi/2025-05-30-00_00_2025-05-30-23_59_Sentinel-2_L2A_NDVI.jpg\n",
-      "/kaggle/input/vegetation-index-ndvi/2025-05-09-00_00_2025-05-09-23_59_Sentinel-2_L2A_False_color.jpg\n",
-      "/kaggle/input/vegetation-index-ndvi/2025-05-09-00_00_2025-05-09-23_59_Sentinel-2_L2A_NDVI.jpg\n",
-      "/kaggle/input/vegetation-index-ndvi/2025-05-09-00_00_2025-05-09-23_59_Sentinel-2_L2A_Moisture_index.jpg\n",
-      "/kaggle/input/vegetation-index-ndvi/2025-05-30-00_00_2025-05-30-23_59_Sentinel-2_L2A_False_color_(urban).jpg\n",
-      "/kaggle/input/vegetation-index-ndvi/2025-05-30-00_00_2025-05-30-23_59_Sentinel-2_L2A_Moisture_index.jpg\n",
-      "/kaggle/input/vegetation-index-ndvi/2025-05-09-00_00_2025-05-09-23_59_Sentinel-2_L2A_True_color.jpg\n",
-      "/kaggle/input/vegetation-index-ndvi/2025-05-09-00_00_2025-05-09-23_59_Sentinel-2_L2A_SWIR.jpg\n",
-      "/kaggle/input/vegetation-index-ndvi/2025-05-09-00_00_2025-05-09-23_59_Sentinel-2_L2A_NDWI.jpg\n",
-      "/kaggle/input/vegetation-index-ndvi/2025-05-30-00_00_2025-05-30-23_59_Sentinel-2_L2A_Highlight_Optimized_Natural_Color.jpg\n",
       "/kaggle/input/dataset-amazonexplorer/viz.be_roughness.tif\n",
       "/kaggle/input/dataset-amazonexplorer/viz.be_hillshade.tif\n",
       "/kaggle/input/dataset-amazonexplorer/viz.be_slope.tif\n",
@@ -55,11 +41,6 @@
       "/kaggle/input/dataset-amazonexplorer/viz/viz.hh_color-relief.tif\n",
       "/kaggle/input/dataset-amazonexplorer/viz/viz.hh_hillshade.tif\n",
       "/kaggle/input/dataset-amazonexplorer/viz/viz.hh_hillshade-color.tif\n",
-      "/kaggle/input/viirs-active-fire-data/J1_VIIRS_C2_South_America_7d.shp\n",
-      "/kaggle/input/viirs-active-fire-data/J1_VIIRS_C2_South_America_7d.shx\n",
-      "/kaggle/input/output-of-each-cell/Screenshot 2025-06-07 134034.png\n",
-      "/kaggle/input/output-of-each-cell/Screenshot 2025-06-07 133918.png\n",
-      "/kaggle/input/output-of-each-cell/Screenshot 2025-06-07 133944.png\n",
       "/kaggle/input/openai-to-z-challenge/README\n",
       "/kaggle/input/soil-data/out (2).tif\n",
       "/kaggle/input/soil-data/out.tif\n",
@@ -67,6 +48,8 @@
       "/kaggle/input/soil-data/out (4).tif\n",
       "/kaggle/input/soil-data/out (5).tif\n",
       "/kaggle/input/soil-data/out (3).tif\n",
+      "/kaggle/input/viirs-active-fire-data/J1_VIIRS_C2_South_America_7d.shp\n",
+      "/kaggle/input/viirs-active-fire-data/J1_VIIRS_C2_South_America_7d.shx\n",
       "/kaggle/input/archaeo-sites-csv/archaeo_sites.csv  - Sheet1.csv\n",
       "/kaggle/input/amazon-lc14-deforestation-scenarios-2020-2050/Governance_2010.tif\n",
       "/kaggle/input/amazon-lc14-deforestation-scenarios-2020-2050/Business_as_Usual_2033.tif\n",
@@ -166,7 +149,24 @@
       "/kaggle/input/amazon-lc14-deforestation-scenarios-2020-2050/Governance_2004.tif\n",
       "/kaggle/input/amazon-lc14-deforestation-scenarios-2020-2050/Business_as_Usual_2037.tif\n",
       "/kaggle/input/amazon-lc14-deforestation-scenarios-2020-2050/Governance_2025.tif\n",
-      "/kaggle/input/amazon-lc14-deforestation-scenarios-2020-2050/Governance_2007.tif\n"
+      "/kaggle/input/amazon-lc14-deforestation-scenarios-2020-2050/Governance_2007.tif\n",
+      "/kaggle/input/output-of-each-cell/Screenshot 2025-06-07 134034.png\n",
+      "/kaggle/input/output-of-each-cell/Screenshot 2025-06-07 133918.png\n",
+      "/kaggle/input/output-of-each-cell/Screenshot 2025-06-07 133944.png\n",
+      "/kaggle/input/human-settlement-data-and-roadsosm-data/BrazilCopernicus Global Human Settlement Layer (GHSL).tif\n",
+      "/kaggle/input/human-settlement-data-and-roadsosm-data/BrazilCopernicus Global Human Settlement Layer (GHSL) 2.tif\n",
+      "/kaggle/input/human-settlement-data-and-roadsosm-data/brazil-latest.osm.pbf\n",
+      "/kaggle/input/vegetation-index-ndvi/2025-05-09-00_00_2025-05-09-23_59_Sentinel-2_L2A_Scene_classification_map.jpg\n",
+      "/kaggle/input/vegetation-index-ndvi/2025-05-30-00_00_2025-05-30-23_59_Sentinel-2_L2A_NDVI.jpg\n",
+      "/kaggle/input/vegetation-index-ndvi/2025-05-09-00_00_2025-05-09-23_59_Sentinel-2_L2A_False_color.jpg\n",
+      "/kaggle/input/vegetation-index-ndvi/2025-05-09-00_00_2025-05-09-23_59_Sentinel-2_L2A_NDVI.jpg\n",
+      "/kaggle/input/vegetation-index-ndvi/2025-05-09-00_00_2025-05-09-23_59_Sentinel-2_L2A_Moisture_index.jpg\n",
+      "/kaggle/input/vegetation-index-ndvi/2025-05-30-00_00_2025-05-30-23_59_Sentinel-2_L2A_False_color_(urban).jpg\n",
+      "/kaggle/input/vegetation-index-ndvi/2025-05-30-00_00_2025-05-30-23_59_Sentinel-2_L2A_Moisture_index.jpg\n",
+      "/kaggle/input/vegetation-index-ndvi/2025-05-09-00_00_2025-05-09-23_59_Sentinel-2_L2A_True_color.jpg\n",
+      "/kaggle/input/vegetation-index-ndvi/2025-05-09-00_00_2025-05-09-23_59_Sentinel-2_L2A_SWIR.jpg\n",
+      "/kaggle/input/vegetation-index-ndvi/2025-05-09-00_00_2025-05-09-23_59_Sentinel-2_L2A_NDWI.jpg\n",
+      "/kaggle/input/vegetation-index-ndvi/2025-05-30-00_00_2025-05-30-23_59_Sentinel-2_L2A_Highlight_Optimized_Natural_Color.jpg\n"
      ]
     }
    ],
@@ -193,19 +193,19 @@
   {
    "cell_type": "code",
    "execution_count": 2,
-   "id": "71f464e7",
+   "id": "ec9ac28b",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-06-11T20:49:45.398373Z",
-     "iopub.status.busy": "2025-06-11T20:49:45.397297Z",
-     "iopub.status.idle": "2025-06-11T20:49:45.410702Z",
-     "shell.execute_reply": "2025-06-11T20:49:45.409648Z"
+     "iopub.execute_input": "2025-06-19T21:20:24.271376Z",
+     "iopub.status.busy": "2025-06-19T21:20:24.270265Z",
+     "iopub.status.idle": "2025-06-19T21:20:24.281965Z",
+     "shell.execute_reply": "2025-06-19T21:20:24.280894Z"
     },
     "papermill": {
-     "duration": 0.019779,
-     "end_time": "2025-06-11T20:49:45.412303",
+     "duration": 0.017513,
+     "end_time": "2025-06-19T21:20:24.283362",
      "exception": false,
-     "start_time": "2025-06-11T20:49:45.392524",
+     "start_time": "2025-06-19T21:20:24.265849",
      "status": "completed"
     },
     "tags": []
@@ -216,16 +216,16 @@
      "output_type": "stream",
      "text": [
       "/kaggle/input\n",
-      "/kaggle/input/human-settlement-data-and-roadsosm-data\n",
-      "/kaggle/input/vegetation-index-ndvi\n",
       "/kaggle/input/dataset-amazonexplorer\n",
       "/kaggle/input/dataset-amazonexplorer/viz\n",
-      "/kaggle/input/viirs-active-fire-data\n",
-      "/kaggle/input/output-of-each-cell\n",
       "/kaggle/input/openai-to-z-challenge\n",
       "/kaggle/input/soil-data\n",
+      "/kaggle/input/viirs-active-fire-data\n",
       "/kaggle/input/archaeo-sites-csv\n",
-      "/kaggle/input/amazon-lc14-deforestation-scenarios-2020-2050\n"
+      "/kaggle/input/amazon-lc14-deforestation-scenarios-2020-2050\n",
+      "/kaggle/input/output-of-each-cell\n",
+      "/kaggle/input/human-settlement-data-and-roadsosm-data\n",
+      "/kaggle/input/vegetation-index-ndvi\n"
      ]
     }
    ],
@@ -237,13 +237,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "7cc12068",
+   "id": "24f2fa50",
    "metadata": {
     "papermill": {
-     "duration": 0.003678,
-     "end_time": "2025-06-11T20:49:45.420431",
+     "duration": 0.003548,
+     "end_time": "2025-06-19T21:20:24.291014",
      "exception": false,
-     "start_time": "2025-06-11T20:49:45.416753",
+     "start_time": "2025-06-19T21:20:24.287466",
      "status": "completed"
     },
     "tags": []
@@ -283,19 +283,19 @@
   {
    "cell_type": "code",
    "execution_count": 3,
-   "id": "c2161dc9",
+   "id": "b00b9932",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-06-11T20:49:45.430424Z",
-     "iopub.status.busy": "2025-06-11T20:49:45.430079Z",
-     "iopub.status.idle": "2025-06-11T20:50:00.667963Z",
-     "shell.execute_reply": "2025-06-11T20:50:00.666476Z"
+     "iopub.execute_input": "2025-06-19T21:20:24.299786Z",
+     "iopub.status.busy": "2025-06-19T21:20:24.299150Z",
+     "iopub.status.idle": "2025-06-19T21:20:38.042461Z",
+     "shell.execute_reply": "2025-06-19T21:20:38.041306Z"
     },
     "papermill": {
-     "duration": 15.244668,
-     "end_time": "2025-06-11T20:50:00.669798",
+     "duration": 13.749544,
+     "end_time": "2025-06-19T21:20:38.044258",
      "exception": false,
-     "start_time": "2025-06-11T20:49:45.425130",
+     "start_time": "2025-06-19T21:20:24.294714",
      "status": "completed"
     },
     "tags": []
@@ -306,7 +306,7 @@
      "output_type": "stream",
      "text": [
       "Collecting fastapi\r\n",
-      "  Downloading fastapi-0.115.12-py3-none-any.whl.metadata (27 kB)\r\n",
+      "  Downloading fastapi-0.115.13-py3-none-any.whl.metadata (27 kB)\r\n",
       "Collecting uvicorn\r\n",
       "  Downloading uvicorn-0.34.3-py3-none-any.whl.metadata (6.5 kB)\r\n",
       "Requirement already satisfied: nest-asyncio in /usr/local/lib/python3.11/dist-packages (1.6.0)\r\n",
@@ -318,7 +318,7 @@
       "Collecting weasyprint\r\n",
       "  Downloading weasyprint-65.1-py3-none-any.whl.metadata (3.7 kB)\r\n",
       "Collecting gradio\r\n",
-      "  Downloading gradio-5.33.2-py3-none-any.whl.metadata (16 kB)\r\n",
+      "  Downloading gradio-5.34.2-py3-none-any.whl.metadata (16 kB)\r\n",
       "Collecting starlette<0.47.0,>=0.40.0 (from fastapi)\r\n",
       "  Downloading starlette-0.46.2-py3-none-any.whl.metadata (6.2 kB)\r\n",
       "Requirement already satisfied: pydantic!=1.8,!=1.8.1,!=2.0.0,!=2.0.1,!=2.1.0,<3.0.0,>=1.7.4 in /usr/local/lib/python3.11/dist-packages (from fastapi) (2.11.4)\r\n",
@@ -363,7 +363,7 @@
       "Collecting python-multipart>=0.0.18 (from gradio)\r\n",
       "  Downloading python_multipart-0.0.20-py3-none-any.whl.metadata (1.8 kB)\r\n",
       "Collecting ruff>=0.9.3 (from gradio)\r\n",
-      "  Downloading ruff-0.11.13-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (25 kB)\r\n",
+      "  Downloading ruff-0.12.0-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (25 kB)\r\n",
       "Collecting safehttpx<0.2.0,>=0.1.6 (from gradio)\r\n",
       "  Downloading safehttpx-0.1.6-py3-none-any.whl.metadata (4.2 kB)\r\n",
       "Collecting semantic-version~=2.0 (from gradio)\r\n",
@@ -409,39 +409,39 @@
       "Requirement already satisfied: intel-cmplr-lib-rt in /usr/local/lib/python3.11/dist-packages (from mkl_umath->numpy<3.0,>=1.0->gradio) (2024.2.0)\r\n",
       "Requirement already satisfied: intel-cmplr-lib-ur==2024.2.0 in /usr/local/lib/python3.11/dist-packages (from intel-openmp<2026,>=2024->mkl->numpy<3.0,>=1.0->gradio) (2024.2.0)\r\n",
       "Requirement already satisfied: mdurl~=0.1 in /usr/local/lib/python3.11/dist-packages (from markdown-it-py>=2.2.0->rich>=10.11.0->typer<1.0,>=0.12->gradio) (0.1.2)\r\n",
-      "Downloading fastapi-0.115.12-py3-none-any.whl (95 kB)\r\n",
-      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m95.2/95.2 kB\u001b[0m \u001b[31m3.2 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
+      "Downloading fastapi-0.115.13-py3-none-any.whl (95 kB)\r\n",
+      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m95.3/95.3 kB\u001b[0m \u001b[31m6.2 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
       "\u001b[?25hDownloading uvicorn-0.34.3-py3-none-any.whl (62 kB)\r\n",
-      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m62.4/62.4 kB\u001b[0m \u001b[31m3.0 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
+      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m62.4/62.4 kB\u001b[0m \u001b[31m3.6 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
       "\u001b[?25hDownloading pyngrok-7.2.11-py3-none-any.whl (25 kB)\r\n",
       "Downloading gTTS-2.5.4-py3-none-any.whl (29 kB)\r\n",
       "Downloading weasyprint-65.1-py3-none-any.whl (298 kB)\r\n",
-      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m298.0/298.0 kB\u001b[0m \u001b[31m7.2 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
-      "\u001b[?25hDownloading gradio-5.33.2-py3-none-any.whl (54.3 MB)\r\n",
-      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m54.3/54.3 MB\u001b[0m \u001b[31m24.9 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
+      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m298.0/298.0 kB\u001b[0m \u001b[31m12.3 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
+      "\u001b[?25hDownloading gradio-5.34.2-py3-none-any.whl (54.3 MB)\r\n",
+      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m54.3/54.3 MB\u001b[0m \u001b[31m28.1 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
       "\u001b[?25hDownloading gradio_client-1.10.3-py3-none-any.whl (323 kB)\r\n",
-      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m323.6/323.6 kB\u001b[0m \u001b[31m14.8 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
+      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m323.6/323.6 kB\u001b[0m \u001b[31m16.8 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
       "\u001b[?25hDownloading cssselect2-0.8.0-py3-none-any.whl (15 kB)\r\n",
       "Downloading groovy-0.1.2-py3-none-any.whl (14 kB)\r\n",
       "Downloading pydyf-0.11.0-py3-none-any.whl (8.1 kB)\r\n",
       "Downloading pyphen-0.17.2-py3-none-any.whl (2.1 MB)\r\n",
-      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m2.1/2.1 MB\u001b[0m \u001b[31m54.7 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
+      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m2.1/2.1 MB\u001b[0m \u001b[31m57.6 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
       "\u001b[?25hDownloading python_multipart-0.0.20-py3-none-any.whl (24 kB)\r\n",
-      "Downloading ruff-0.11.13-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (11.6 MB)\r\n",
-      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m11.6/11.6 MB\u001b[0m \u001b[31m84.4 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
+      "Downloading ruff-0.12.0-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (11.6 MB)\r\n",
+      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m11.6/11.6 MB\u001b[0m \u001b[31m89.5 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
       "\u001b[?25hDownloading safehttpx-0.1.6-py3-none-any.whl (8.7 kB)\r\n",
       "Downloading semantic_version-2.10.0-py2.py3-none-any.whl (15 kB)\r\n",
       "Downloading starlette-0.46.2-py3-none-any.whl (72 kB)\r\n",
-      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m72.0/72.0 kB\u001b[0m \u001b[31m3.1 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
+      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m72.0/72.0 kB\u001b[0m \u001b[31m3.9 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
       "\u001b[?25hDownloading tinyhtml5-2.0.0-py3-none-any.whl (39 kB)\r\n",
       "Downloading tomlkit-0.13.3-py3-none-any.whl (38 kB)\r\n",
       "Downloading ffmpy-0.6.0-py3-none-any.whl (5.5 kB)\r\n",
       "Downloading Brotli-1.1.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (2.9 MB)\r\n",
-      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m2.9/2.9 MB\u001b[0m \u001b[31m55.0 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
+      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m2.9/2.9 MB\u001b[0m \u001b[31m57.0 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
       "\u001b[?25hDownloading zopfli-0.2.3.post1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (850 kB)\r\n",
-      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m850.6/850.6 kB\u001b[0m \u001b[31m32.6 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
+      "\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m850.6/850.6 kB\u001b[0m \u001b[31m37.7 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n",
       "\u001b[?25hInstalling collected packages: brotli, zopfli, uvicorn, tomlkit, tinyhtml5, semantic-version, ruff, python-multipart, Pyphen, pyngrok, pydyf, groovy, ffmpy, starlette, gtts, cssselect2, weasyprint, safehttpx, gradio-client, fastapi, gradio\r\n",
-      "Successfully installed Pyphen-0.17.2 brotli-1.1.0 cssselect2-0.8.0 fastapi-0.115.12 ffmpy-0.6.0 gradio-5.33.2 gradio-client-1.10.3 groovy-0.1.2 gtts-2.5.4 pydyf-0.11.0 pyngrok-7.2.11 python-multipart-0.0.20 ruff-0.11.13 safehttpx-0.1.6 semantic-version-2.10.0 starlette-0.46.2 tinyhtml5-2.0.0 tomlkit-0.13.3 uvicorn-0.34.3 weasyprint-65.1 zopfli-0.2.3.post1\r\n"
+      "Successfully installed Pyphen-0.17.2 brotli-1.1.0 cssselect2-0.8.0 fastapi-0.115.13 ffmpy-0.6.0 gradio-5.34.2 gradio-client-1.10.3 groovy-0.1.2 gtts-2.5.4 pydyf-0.11.0 pyngrok-7.2.11 python-multipart-0.0.20 ruff-0.12.0 safehttpx-0.1.6 semantic-version-2.10.0 starlette-0.46.2 tinyhtml5-2.0.0 tomlkit-0.13.3 uvicorn-0.34.3 weasyprint-65.1 zopfli-0.2.3.post1\r\n"
      ]
     }
    ],
@@ -453,19 +453,19 @@
   {
    "cell_type": "code",
    "execution_count": 4,
-   "id": "569d9b8b",
+   "id": "b2ff5e69",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-06-11T20:50:00.687044Z",
-     "iopub.status.busy": "2025-06-11T20:50:00.686684Z",
-     "iopub.status.idle": "2025-06-11T20:50:04.471500Z",
-     "shell.execute_reply": "2025-06-11T20:50:04.470196Z"
+     "iopub.execute_input": "2025-06-19T21:20:38.060170Z",
+     "iopub.status.busy": "2025-06-19T21:20:38.059811Z",
+     "iopub.status.idle": "2025-06-19T21:20:41.718312Z",
+     "shell.execute_reply": "2025-06-19T21:20:41.717120Z"
     },
     "papermill": {
-     "duration": 3.795536,
-     "end_time": "2025-06-11T20:50:04.473491",
+     "duration": 3.669022,
+     "end_time": "2025-06-19T21:20:41.720654",
      "exception": false,
-     "start_time": "2025-06-11T20:50:00.677955",
+     "start_time": "2025-06-19T21:20:38.051632",
      "status": "completed"
     },
     "tags": []
@@ -508,19 +508,19 @@
   {
    "cell_type": "code",
    "execution_count": 5,
-   "id": "fd554e7d",
+   "id": "bf2a4d54",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-06-11T20:50:04.490535Z",
-     "iopub.status.busy": "2025-06-11T20:50:04.490184Z",
-     "iopub.status.idle": "2025-06-11T20:50:05.280963Z",
-     "shell.execute_reply": "2025-06-11T20:50:05.280272Z"
+     "iopub.execute_input": "2025-06-19T21:20:41.736778Z",
+     "iopub.status.busy": "2025-06-19T21:20:41.736419Z",
+     "iopub.status.idle": "2025-06-19T21:20:42.479079Z",
+     "shell.execute_reply": "2025-06-19T21:20:42.478227Z"
     },
     "papermill": {
-     "duration": 0.801377,
-     "end_time": "2025-06-11T20:50:05.282806",
+     "duration": 0.752609,
+     "end_time": "2025-06-19T21:20:42.480576",
      "exception": false,
-     "start_time": "2025-06-11T20:50:04.481429",
+     "start_time": "2025-06-19T21:20:41.727967",
      "status": "completed"
     },
     "tags": []
@@ -556,7 +556,7 @@
        "            &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width,\n",
        "                initial-scale=1.0, maximum-scale=1.0, user-scalable=no&quot; /&gt;\n",
        "            &lt;style&gt;\n",
-       "                #map_f67d63952472ec7427238feab3e8d041 {\n",
+       "                #map_53fda506574f4c4bb34ada9969f8e1ba {\n",
        "                    position: relative;\n",
        "                    width: 100.0%;\n",
        "                    height: 100.0%;\n",
@@ -591,15 +591,15 @@
        "&lt;body&gt;\n",
        "    \n",
        "    \n",
-       "            &lt;div class=&quot;folium-map&quot; id=&quot;map_f67d63952472ec7427238feab3e8d041&quot; &gt;&lt;/div&gt;\n",
+       "            &lt;div class=&quot;folium-map&quot; id=&quot;map_53fda506574f4c4bb34ada9969f8e1ba&quot; &gt;&lt;/div&gt;\n",
        "        \n",
        "    &lt;a href=&#x27;#&#x27; id=&#x27;export&#x27;&gt;Export&lt;/a&gt;\n",
        "&lt;/body&gt;\n",
        "&lt;script&gt;\n",
        "    \n",
        "    \n",
-       "            var map_f67d63952472ec7427238feab3e8d041 = L.map(\n",
-       "                &quot;map_f67d63952472ec7427238feab3e8d041&quot;,\n",
+       "            var map_53fda506574f4c4bb34ada9969f8e1ba = L.map(\n",
+       "                &quot;map_53fda506574f4c4bb34ada9969f8e1ba&quot;,\n",
        "                {\n",
        "                    center: [-6.637, -52.3518],\n",
        "                    crs: L.CRS.EPSG3857,\n",
@@ -616,7 +616,7 @@
        "\n",
        "        \n",
        "    \n",
-       "            var tile_layer_06aaa34fbcc700f3d12a22e22c06c0af = L.tileLayer(\n",
+       "            var tile_layer_34dd4527c36db4f17259e6df76a3a2bc = L.tileLayer(\n",
        "                &quot;https://tile.openstreetmap.org/{z}/{x}/{y}.png&quot;,\n",
        "                {\n",
        "  &quot;minZoom&quot;: 0,\n",
@@ -633,10 +633,10 @@
        "            );\n",
        "        \n",
        "    \n",
-       "            tile_layer_06aaa34fbcc700f3d12a22e22c06c0af.addTo(map_f67d63952472ec7427238feab3e8d041);\n",
+       "            tile_layer_34dd4527c36db4f17259e6df76a3a2bc.addTo(map_53fda506574f4c4bb34ada9969f8e1ba);\n",
        "        \n",
        "    \n",
-       "            var tile_layer_ae40c24c27e9b0d375ba6658cfed7ad9 = L.tileLayer(\n",
+       "            var tile_layer_631e4b60ef1a84c24f5fc982814cc758 = L.tileLayer(\n",
        "                &quot;https://stamen-tiles.a.ssl.fastly.net/terrain/{z}/{x}/{y}.png&quot;,\n",
        "                {\n",
        "  &quot;minZoom&quot;: 0,\n",
@@ -653,7 +653,7 @@
        "            );\n",
        "        \n",
        "    \n",
-       "            tile_layer_ae40c24c27e9b0d375ba6658cfed7ad9.addTo(map_f67d63952472ec7427238feab3e8d041);\n",
+       "            tile_layer_631e4b60ef1a84c24f5fc982814cc758.addTo(map_53fda506574f4c4bb34ada9969f8e1ba);\n",
        "        \n",
        "    \n",
        "            var options = {\n",
@@ -662,16 +662,16 @@
        "              edit: {},\n",
        "            }\n",
        "                // FeatureGroup is to store editable layers.\n",
-       "                var drawnItems_draw_control_cc37e221a88e5e4f02b1c5ed11e9febe =\n",
+       "                var drawnItems_draw_control_94e735c73a09f433700243abb5406c0c =\n",
        "                    new L.featureGroup().addTo(\n",
-       "                        map_f67d63952472ec7427238feab3e8d041\n",
+       "                        map_53fda506574f4c4bb34ada9969f8e1ba\n",
        "                    );\n",
        "\n",
-       "            options.edit.featureGroup = drawnItems_draw_control_cc37e221a88e5e4f02b1c5ed11e9febe;\n",
-       "            var draw_control_cc37e221a88e5e4f02b1c5ed11e9febe = new L.Control.Draw(\n",
+       "            options.edit.featureGroup = drawnItems_draw_control_94e735c73a09f433700243abb5406c0c;\n",
+       "            var draw_control_94e735c73a09f433700243abb5406c0c = new L.Control.Draw(\n",
        "                options\n",
-       "            ).addTo( map_f67d63952472ec7427238feab3e8d041 );\n",
-       "            map_f67d63952472ec7427238feab3e8d041.on(L.Draw.Event.CREATED, function(e) {\n",
+       "            ).addTo( map_53fda506574f4c4bb34ada9969f8e1ba );\n",
+       "            map_53fda506574f4c4bb34ada9969f8e1ba.on(L.Draw.Event.CREATED, function(e) {\n",
        "                var layer = e.layer,\n",
        "                    type = e.layerType;\n",
        "                var coords = JSON.stringify(layer.toGeoJSON());\n",
@@ -679,15 +679,15 @@
        "                    alert(coords);\n",
        "                    console.log(coords);\n",
        "                });\n",
-       "                drawnItems_draw_control_cc37e221a88e5e4f02b1c5ed11e9febe.addLayer(layer);\n",
+       "                drawnItems_draw_control_94e735c73a09f433700243abb5406c0c.addLayer(layer);\n",
        "            });\n",
-       "            map_f67d63952472ec7427238feab3e8d041.on(&#x27;draw:created&#x27;, function(e) {\n",
-       "                drawnItems_draw_control_cc37e221a88e5e4f02b1c5ed11e9febe.addLayer(e.layer);\n",
+       "            map_53fda506574f4c4bb34ada9969f8e1ba.on(&#x27;draw:created&#x27;, function(e) {\n",
+       "                drawnItems_draw_control_94e735c73a09f433700243abb5406c0c.addLayer(e.layer);\n",
        "            });\n",
        "\n",
        "            \n",
        "            document.getElementById(&#x27;export&#x27;).onclick = function(e) {\n",
-       "                var data = drawnItems_draw_control_cc37e221a88e5e4f02b1c5ed11e9febe.toGeoJSON();\n",
+       "                var data = drawnItems_draw_control_94e735c73a09f433700243abb5406c0c.toGeoJSON();\n",
        "                var convertedData = &#x27;text/json;charset=utf-8,&#x27;\n",
        "                    + encodeURIComponent(JSON.stringify(data));\n",
        "                document.getElementById(&#x27;export&#x27;).setAttribute(\n",
@@ -700,51 +700,51 @@
        "            \n",
        "        \n",
        "    \n",
-       "            var layer_control_3cd954cf13df225e4662b62f4393f90c_layers = {\n",
+       "            var layer_control_3edd324c46aa386dc1487bb5bc2bd5ce_layers = {\n",
        "                base_layers : {\n",
-       "                    &quot;openstreetmap&quot; : tile_layer_06aaa34fbcc700f3d12a22e22c06c0af,\n",
-       "                    &quot;Stamen Terrain&quot; : tile_layer_ae40c24c27e9b0d375ba6658cfed7ad9,\n",
+       "                    &quot;openstreetmap&quot; : tile_layer_34dd4527c36db4f17259e6df76a3a2bc,\n",
+       "                    &quot;Stamen Terrain&quot; : tile_layer_631e4b60ef1a84c24f5fc982814cc758,\n",
        "                },\n",
        "                overlays :  {\n",
        "                },\n",
        "            };\n",
-       "            let layer_control_3cd954cf13df225e4662b62f4393f90c = L.control.layers(\n",
-       "                layer_control_3cd954cf13df225e4662b62f4393f90c_layers.base_layers,\n",
-       "                layer_control_3cd954cf13df225e4662b62f4393f90c_layers.overlays,\n",
+       "            let layer_control_3edd324c46aa386dc1487bb5bc2bd5ce = L.control.layers(\n",
+       "                layer_control_3edd324c46aa386dc1487bb5bc2bd5ce_layers.base_layers,\n",
+       "                layer_control_3edd324c46aa386dc1487bb5bc2bd5ce_layers.overlays,\n",
        "                {\n",
        "  &quot;position&quot;: &quot;topright&quot;,\n",
        "  &quot;collapsed&quot;: true,\n",
        "  &quot;autoZIndex&quot;: true,\n",
        "}\n",
-       "            ).addTo(map_f67d63952472ec7427238feab3e8d041);\n",
+       "            ).addTo(map_53fda506574f4c4bb34ada9969f8e1ba);\n",
        "\n",
        "        \n",
        "    \n",
-       "            var marker_6d70d723a269531aa16908707ee87091 = L.marker(\n",
+       "            var marker_c8a47508ad94b24da2dad402c5339446 = L.marker(\n",
        "                [-6.637, -52.3518],\n",
        "                {\n",
        "}\n",
-       "            ).addTo(map_f67d63952472ec7427238feab3e8d041);\n",
+       "            ).addTo(map_53fda506574f4c4bb34ada9969f8e1ba);\n",
        "        \n",
        "    \n",
-       "        var popup_adf440409753db070f7733afe0b6eb49 = L.popup({\n",
+       "        var popup_e5b3c89b90b158c85ea17fc2fbb87d90 = L.popup({\n",
        "  &quot;maxWidth&quot;: &quot;100%&quot;,\n",
        "});\n",
        "\n",
        "        \n",
        "            \n",
-       "                var html_8aa75c60d1b58d799919aab0e7d588f3 = $(`&lt;div id=&quot;html_8aa75c60d1b58d799919aab0e7d588f3&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;São Félix do Xingu&lt;/div&gt;`)[0];\n",
-       "                popup_adf440409753db070f7733afe0b6eb49.setContent(html_8aa75c60d1b58d799919aab0e7d588f3);\n",
+       "                var html_ae95041382ba46f1b610a55baea2f082 = $(`&lt;div id=&quot;html_ae95041382ba46f1b610a55baea2f082&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt;São Félix do Xingu&lt;/div&gt;`)[0];\n",
+       "                popup_e5b3c89b90b158c85ea17fc2fbb87d90.setContent(html_ae95041382ba46f1b610a55baea2f082);\n",
        "            \n",
        "        \n",
        "\n",
-       "        marker_6d70d723a269531aa16908707ee87091.bindPopup(popup_adf440409753db070f7733afe0b6eb49)\n",
+       "        marker_c8a47508ad94b24da2dad402c5339446.bindPopup(popup_e5b3c89b90b158c85ea17fc2fbb87d90)\n",
        "        ;\n",
        "\n",
        "        \n",
        "    \n",
        "    \n",
-       "            marker_6d70d723a269531aa16908707ee87091.bindTooltip(\n",
+       "            marker_c8a47508ad94b24da2dad402c5339446.bindTooltip(\n",
        "                `&lt;div&gt;\n",
        "                     Center\n",
        "                 &lt;/div&gt;`,\n",
@@ -754,31 +754,31 @@
        "            );\n",
        "        \n",
        "    \n",
-       "            var marker_d23696ef81c9c2db11590a15088e544b = L.marker(\n",
+       "            var marker_7c9f457a8ae53c9c67f55f3065261ec0 = L.marker(\n",
        "                [-6.637, -52.3518],\n",
        "                {\n",
        "}\n",
-       "            ).addTo(map_f67d63952472ec7427238feab3e8d041);\n",
+       "            ).addTo(map_53fda506574f4c4bb34ada9969f8e1ba);\n",
        "        \n",
        "    \n",
-       "        var popup_fd6f04c37bc398d5dcbbafc4c3e97df9 = L.popup({\n",
+       "        var popup_22933cb0e41a6327c9a758032bf9849a = L.popup({\n",
        "  &quot;maxWidth&quot;: 300,\n",
        "});\n",
        "\n",
        "        \n",
        "            \n",
-       "                var html_11c9bb783f0d16c09f9a1986274305b4 = $(`&lt;div id=&quot;html_11c9bb783f0d16c09f9a1986274305b4&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt; &lt;b&gt;São Félix do Xingu&lt;/b&gt;&lt;br&gt; &lt;button onclick=&quot;alert(&#x27;Research Clicked&#x27;)&quot;&gt;Research&lt;/button&gt; &lt;button onclick=&quot;alert(&#x27;Chat Clicked&#x27;)&quot;&gt;Chat&lt;/button&gt; &lt;/div&gt;`)[0];\n",
-       "                popup_fd6f04c37bc398d5dcbbafc4c3e97df9.setContent(html_11c9bb783f0d16c09f9a1986274305b4);\n",
+       "                var html_41135fa924be336578c94ba3577c779a = $(`&lt;div id=&quot;html_41135fa924be336578c94ba3577c779a&quot; style=&quot;width: 100.0%; height: 100.0%;&quot;&gt; &lt;b&gt;São Félix do Xingu&lt;/b&gt;&lt;br&gt; &lt;button onclick=&quot;alert(&#x27;Research Clicked&#x27;)&quot;&gt;Research&lt;/button&gt; &lt;button onclick=&quot;alert(&#x27;Chat Clicked&#x27;)&quot;&gt;Chat&lt;/button&gt; &lt;/div&gt;`)[0];\n",
+       "                popup_22933cb0e41a6327c9a758032bf9849a.setContent(html_41135fa924be336578c94ba3577c779a);\n",
        "            \n",
        "        \n",
        "\n",
-       "        marker_d23696ef81c9c2db11590a15088e544b.bindPopup(popup_fd6f04c37bc398d5dcbbafc4c3e97df9)\n",
+       "        marker_7c9f457a8ae53c9c67f55f3065261ec0.bindPopup(popup_22933cb0e41a6327c9a758032bf9849a)\n",
        "        ;\n",
        "\n",
        "        \n",
        "    \n",
        "    \n",
-       "            marker_d23696ef81c9c2db11590a15088e544b.bindTooltip(\n",
+       "            marker_7c9f457a8ae53c9c67f55f3065261ec0.bindTooltip(\n",
        "                `&lt;div&gt;\n",
        "                     Interactive Marker\n",
        "                 &lt;/div&gt;`,\n",
@@ -791,7 +791,7 @@
        "&lt;/html&gt;\" style=\"position:absolute;width:100%;height:100%;left:0;top:0;border:none !important;\" allowfullscreen webkitallowfullscreen mozallowfullscreen></iframe></div></div>"
       ],
       "text/plain": [
-       "<folium.folium.Map at 0x7beb10b47010>"
+       "<folium.folium.Map at 0x7beba2293d10>"
       ]
      },
      "execution_count": 5,
@@ -856,19 +856,19 @@
   {
    "cell_type": "code",
    "execution_count": 6,
-   "id": "db6aef52",
+   "id": "0e8e5ea1",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-06-11T20:50:05.300786Z",
-     "iopub.status.busy": "2025-06-11T20:50:05.300347Z",
-     "iopub.status.idle": "2025-06-11T20:50:06.009701Z",
-     "shell.execute_reply": "2025-06-11T20:50:06.008331Z"
+     "iopub.execute_input": "2025-06-19T21:20:42.496990Z",
+     "iopub.status.busy": "2025-06-19T21:20:42.496556Z",
+     "iopub.status.idle": "2025-06-19T21:20:43.177506Z",
+     "shell.execute_reply": "2025-06-19T21:20:43.176500Z"
     },
     "papermill": {
-     "duration": 0.720051,
-     "end_time": "2025-06-11T20:50:06.011302",
+     "duration": 0.690853,
+     "end_time": "2025-06-19T21:20:43.179064",
      "exception": false,
-     "start_time": "2025-06-11T20:50:05.291251",
+     "start_time": "2025-06-19T21:20:42.488211",
      "status": "completed"
     },
     "tags": []
@@ -911,13 +911,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "c671a1d0",
+   "id": "6263bf72",
    "metadata": {
     "papermill": {
-     "duration": 0.00832,
-     "end_time": "2025-06-11T20:50:06.028271",
+     "duration": 0.008013,
+     "end_time": "2025-06-19T21:20:43.195171",
      "exception": false,
-     "start_time": "2025-06-11T20:50:06.019951",
+     "start_time": "2025-06-19T21:20:43.187158",
      "status": "completed"
     },
     "tags": []
@@ -929,19 +929,19 @@
   {
    "cell_type": "code",
    "execution_count": 7,
-   "id": "929486e5",
+   "id": "d91835fa",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-06-11T20:50:06.047054Z",
-     "iopub.status.busy": "2025-06-11T20:50:06.046024Z",
-     "iopub.status.idle": "2025-06-11T20:50:06.052362Z",
-     "shell.execute_reply": "2025-06-11T20:50:06.051480Z"
+     "iopub.execute_input": "2025-06-19T21:20:43.212309Z",
+     "iopub.status.busy": "2025-06-19T21:20:43.211580Z",
+     "iopub.status.idle": "2025-06-19T21:20:43.216934Z",
+     "shell.execute_reply": "2025-06-19T21:20:43.216210Z"
     },
     "papermill": {
-     "duration": 0.017359,
-     "end_time": "2025-06-11T20:50:06.053922",
+     "duration": 0.015113,
+     "end_time": "2025-06-19T21:20:43.218221",
      "exception": false,
-     "start_time": "2025-06-11T20:50:06.036563",
+     "start_time": "2025-06-19T21:20:43.203108",
      "status": "completed"
     },
     "tags": []
@@ -983,13 +983,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "0c0baffa",
+   "id": "ab7097db",
    "metadata": {
     "papermill": {
-     "duration": 0.00825,
-     "end_time": "2025-06-11T20:50:06.071197",
+     "duration": 0.007055,
+     "end_time": "2025-06-19T21:20:43.232728",
      "exception": false,
-     "start_time": "2025-06-11T20:50:06.062947",
+     "start_time": "2025-06-19T21:20:43.225673",
      "status": "completed"
     },
     "tags": []
@@ -1001,19 +1001,19 @@
   {
    "cell_type": "code",
    "execution_count": 8,
-   "id": "c867d825",
+   "id": "7f35d5b7",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-06-11T20:50:06.088674Z",
-     "iopub.status.busy": "2025-06-11T20:50:06.088356Z",
-     "iopub.status.idle": "2025-06-11T20:50:11.907482Z",
-     "shell.execute_reply": "2025-06-11T20:50:11.906423Z"
+     "iopub.execute_input": "2025-06-19T21:20:43.248938Z",
+     "iopub.status.busy": "2025-06-19T21:20:43.248249Z",
+     "iopub.status.idle": "2025-06-19T21:20:49.568074Z",
+     "shell.execute_reply": "2025-06-19T21:20:49.567219Z"
     },
     "papermill": {
-     "duration": 5.82969,
-     "end_time": "2025-06-11T20:50:11.908957",
+     "duration": 6.329917,
+     "end_time": "2025-06-19T21:20:49.569811",
      "exception": false,
-     "start_time": "2025-06-11T20:50:06.079267",
+     "start_time": "2025-06-19T21:20:43.239894",
      "status": "completed"
     },
     "tags": []
@@ -1026,7 +1026,7 @@
       "* Running on local URL:  http://127.0.0.1:7860\n",
       "It looks like you are running Gradio on a hosted Jupyter notebook, which requires `share=True`. Automatically setting `share=True` (you can turn this off by setting `share=False` in `launch()` explicitly).\n",
       "\n",
-      "* Running on public URL: https://85e6d628e5dd2db0c5.gradio.live\n",
+      "* Running on public URL: https://251929a4ea7da570a3.gradio.live\n",
       "\n",
       "This share link expires in 1 week. For free permanent hosting and GPU upgrades, run `gradio deploy` from the terminal in the working directory to deploy to Hugging Face Spaces (https://huggingface.co/spaces)\n"
      ]
@@ -1034,7 +1034,7 @@
     {
      "data": {
       "text/html": [
-       "<div><iframe src=\"https://85e6d628e5dd2db0c5.gradio.live\" width=\"100%\" height=\"500\" allow=\"autoplay; camera; microphone; clipboard-read; clipboard-write;\" frameborder=\"0\" allowfullscreen></iframe></div>"
+       "<div><iframe src=\"https://251929a4ea7da570a3.gradio.live\" width=\"100%\" height=\"500\" allow=\"autoplay; camera; microphone; clipboard-read; clipboard-write;\" frameborder=\"0\" allowfullscreen></iframe></div>"
       ],
       "text/plain": [
        "<IPython.core.display.HTML object>"
@@ -1074,13 +1074,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "6b0de663",
+   "id": "ba399daa",
    "metadata": {
     "papermill": {
-     "duration": 0.008821,
-     "end_time": "2025-06-11T20:50:11.926727",
+     "duration": 0.008214,
+     "end_time": "2025-06-19T21:20:49.586022",
      "exception": false,
-     "start_time": "2025-06-11T20:50:11.917906",
+     "start_time": "2025-06-19T21:20:49.577808",
      "status": "completed"
     },
     "tags": []
@@ -1107,19 +1107,19 @@
   {
    "cell_type": "code",
    "execution_count": 9,
-   "id": "1bd2e275",
+   "id": "bb0c67fd",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-06-11T20:50:11.945369Z",
-     "iopub.status.busy": "2025-06-11T20:50:11.944689Z",
-     "iopub.status.idle": "2025-06-11T20:50:16.824998Z",
-     "shell.execute_reply": "2025-06-11T20:50:16.823988Z"
+     "iopub.execute_input": "2025-06-19T21:20:49.602647Z",
+     "iopub.status.busy": "2025-06-19T21:20:49.602316Z",
+     "iopub.status.idle": "2025-06-19T21:20:55.176504Z",
+     "shell.execute_reply": "2025-06-19T21:20:55.175585Z"
     },
     "papermill": {
-     "duration": 4.891435,
-     "end_time": "2025-06-11T20:50:16.826845",
+     "duration": 5.584767,
+     "end_time": "2025-06-19T21:20:55.178541",
      "exception": false,
-     "start_time": "2025-06-11T20:50:11.935410",
+     "start_time": "2025-06-19T21:20:49.593774",
      "status": "completed"
     },
     "tags": []
@@ -1159,13 +1159,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "4697a35a",
+   "id": "2b7396dc",
    "metadata": {
     "papermill": {
-     "duration": 0.00836,
-     "end_time": "2025-06-11T20:50:16.844192",
+     "duration": 0.008823,
+     "end_time": "2025-06-19T21:20:55.202005",
      "exception": false,
-     "start_time": "2025-06-11T20:50:16.835832",
+     "start_time": "2025-06-19T21:20:55.193182",
      "status": "completed"
     },
     "tags": []
@@ -1233,11 +1233,11 @@
     "\n",
     "# SECTION 5: Data Evidence Layers\n",
     "\"\"\"\n",
-    "Vegetation (NDVI): Low NDVI zone suggests canopy break / earthwork\n",
-    "Road Proximity: >10km from modern roads → good preservation odds\n",
-    "Soil Type: Loamy, highly fertile → supports agriculture\n",
-    "Fire Risk: Low recent fire activity → preserved terrain\n",
-    "Elevation & Water: 300m above sea level, 2km from minor river\n",
+    "- Vegetation (NDVI): Canopy gaps suggest earthworks\n",
+    "- Road Proximity: >10km from modern roads → good preservation odds\n",
+    "- Soil Type: Loamy and fertile → supports agriculture\n",
+    "- Fire Risk: Low recent fire activity → better surface integrity\n",
+    "- Elevation & Water: 300m elevation, 2km from river → sustainable habitation\n",
     "\"\"\"\n",
     "\n",
     "# SECTION 6: AmazonExplorer AI Tool Description\n",
@@ -1255,7 +1255,9 @@
     "- Folium (map)\n",
     "- FastAPI (backend)\n",
     "- OpenAI GPT (analysis)\n",
-    "- WeasyPrint (PDF), gTTS (voice), Gradio (UI)\n",
+    "- WeasyPrint (PDF), gTTS (voice), Gradio (UI).\n",
+    "\n",
+    "FastAPI handles the backend API logic, while Gradio provides an intuitive user interface for testing AI summaries in real time\n",
     "\"\"\"\n",
     "\n",
     "# SECTION 7: Conclusion\n",
@@ -1271,20 +1273,20 @@
     "\n",
     "This project not only uncovers potential archaeological sites but also sets the foundation for AI-powered discovery to reshape historical research worldwide.\n",
     "\n",
-    "\"AmazonExplorer AI\" demonstrates how AI democratizes archaeological discovery.\n",
+    "AmazonExplorer AI is not just a tool it’s a call to rethink how we explore the forgotten edges of human history.\n",
     "\"\"\"\n",
-    "# Submited all map outputs, app screenshots, and GPT logs below\n"
+    "# Submited all map outputs, app screenshots, and GPT logs below.\n"
    ]
   },
   {
    "cell_type": "markdown",
-   "id": "ecd2cf04",
+   "id": "9f81b5c9",
    "metadata": {
     "papermill": {
-     "duration": 0.008393,
-     "end_time": "2025-06-11T20:50:16.860968",
+     "duration": 0.007546,
+     "end_time": "2025-06-19T21:20:55.217324",
      "exception": false,
-     "start_time": "2025-06-11T20:50:16.852575",
+     "start_time": "2025-06-19T21:20:55.209778",
      "status": "completed"
     },
     "tags": []
@@ -1385,14 +1387,14 @@
   },
   "papermill": {
    "default_parameters": {},
-   "duration": 40.984854,
-   "end_time": "2025-06-11T20:50:19.490343",
+   "duration": 40.196066,
+   "end_time": "2025-06-19T21:20:57.844192",
    "environment_variables": {},
    "exception": null,
    "input_path": "__notebook__.ipynb",
    "output_path": "__notebook__.ipynb",
    "parameters": {},
-   "start_time": "2025-06-11T20:49:38.505489",
+   "start_time": "2025-06-19T21:20:17.648126",
    "version": "2.6.0"
   }
  },
